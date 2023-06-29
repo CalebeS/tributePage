@@ -6,16 +6,17 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
 .container {
   display: flex;
-  width: 990px;
+  width: 1400px;
 }
 
 header {
   display: flex;
-  flex-direction: row-reverse;
-  height: 100px;
-  background-color: black;
+  justify-content: center;
+  height: 60px;
+  background-color: rgb(241, 174, 28)
 }
 
 .menu {
@@ -45,13 +46,12 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(241, 174, 28);
   color: rgb(3, 3, 3);
 }
 
 .banner {
-  background-image: url("../image/kobe1.jpg");
-  background-position: right;
+  background-image: url("../image/bannerbio7.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -61,29 +61,38 @@ nav a:hover {
 .banner_text {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: start;
 }
 
 .banner_text h1 {
   font-size: 90px;
   text-shadow: 1px 1px 0px #000000;
-  margin-left: 800px;
-  margin-top: 200px;
+  margin-top: 160px;
+  margin-right: 290px;
   color: rgb(241, 174, 28);
 }
 
 .banner_text h2 {
-  font-size: 21px;
-  text-shadow: 0px 1px 0px #000000;
-  color: aliceblue;
-  margin-left: 800px;
-  font-size: 25px;
+  color: white;
+  font-size: 30px;
+}
+
+.banner_text h2:hover {
+  font-size: 40px;
+  color: rgb(241, 174, 28);
+  transition: 2s;
+}
+
+cite:hover {
+  font-size: 40px;
+  color: rgb(241, 174, 28);
+  transition: 1s;
 }
 
 cite {
-  color: aliceblue;
+  color: white;
+  font-size: 23px;
   margin-right: 200px;
+  text-shadow: 0px 1px 0px #000000;
 }
 
 .biografia {
