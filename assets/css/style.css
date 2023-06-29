@@ -192,59 +192,24 @@ cite {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .footer {
-  background-image: url("../image/bannerbio6.jpg");
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  height: 1100px;
-}
 
+}
 
 .footer_final {
-
-}
-
-.titulos ul {
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-.biografia {
-  height: 1100px;
-  background-image: url("../image/bannerbio7.jpg");
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-}
-
-
-background-image: url("../image/bannerbio3.jpg");
-  background-position: right;
+  background-image: url("../image/10.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   height: 1100px;
+}
+
+
+.footer_final p {
+  margin-top: 200px;
+  font-size: 30px;
+  padding: 230px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+}
