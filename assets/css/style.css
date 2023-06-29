@@ -16,7 +16,8 @@ header {
   display: flex;
   justify-content: center;
   height: 60px;
-  background-color: rgb(241, 174, 28)
+  background-color: rgb(241, 174, 28);
+  background-image: url("../image/bannerbio3.jpg");
 }
 
 .menu {
@@ -38,7 +39,7 @@ nav ul {
 nav a {
   display: block;
   padding: 20px;
-  margin-right: 100px;
+  margin-right: 45px;
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
@@ -65,7 +66,7 @@ nav a:hover {
 
 .banner_text h1 {
   font-size: 90px;
-  text-shadow: 1px 1px 0px #000000;
+  text-shadow: 20px 20px 30px #000000;
   margin-top: 160px;
   margin-right: 290px;
   color: rgb(241, 174, 28);
@@ -74,17 +75,18 @@ nav a:hover {
 .banner_text h2 {
   color: white;
   font-size: 30px;
+  text-shadow: 30px 30px 30px #000000;
 }
 
 .banner_text h2:hover {
-  font-size: 40px;
-  color: rgb(241, 174, 28);
+  font-size: 48px;
+  color: rgb(99, 7, 175);
   transition: 2s;
 }
 
 cite:hover {
   font-size: 40px;
-  color: rgb(241, 174, 28);
+  color: rgb(99, 7, 175);
   transition: 1s;
 }
 
@@ -97,7 +99,12 @@ cite {
 
 .biografia {
   height: 1100px;
-  width: 100%
+  width: 100%;
+  background-image: url("../image/bannerbio3.jpg");
+  background-position: right;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .bio_image img {
@@ -115,9 +122,9 @@ cite {
 }
 
 .bio_image img:hover {
-  border-right: 50px solid rgb(241, 174, 28);
-  border-bottom: 50px solid rgb(241, 174, 28);
-  transition: 1s;
+  border-right: 50px solid rgb(99, 7, 175);;
+  border-bottom: 50px solid rgb(99, 7, 175);;
+  transition: 4s;
 }
 
 .bio_image h1 {
@@ -133,7 +140,7 @@ cite {
 }
 
 .biografia_text p {
-  color: #000000;
+  color: #ffffff;
   font-size: 23px;
   line-height: 34px;
   display: flex;
@@ -144,22 +151,13 @@ cite {
  
 
 .carrer {
-  height: 1110px;
-  background-color: #000000;
-}
-
-
-
-/* 
-.carrer {
-  background-image: url("../image/bannerbio6.jpg");
-  background-position: right;
+  background-image: url("../image/bannerbio5.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   height: 1100px;
 }
-
+/* 
 
 .biografia {
   height: 1100px;
