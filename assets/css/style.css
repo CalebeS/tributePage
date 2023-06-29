@@ -9,7 +9,7 @@ html {
 
 .container {
   display: flex;
-  width: 1400px;
+  width: 1500px;
 }
 
 header {
@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 .banner_text h2:hover {
-  font-size: 48px;
+  font-size: 40px;
   color: rgb(99, 7, 175);
   transition: 2s;
 }
@@ -157,6 +157,80 @@ cite {
   justify-content: center;
   height: 1100px;
 }
+
+
+.carrer_album {
+  margin-top: 250px;
+}
+
+.carrer_album img {
+  height: 350px;
+  width: 480px;
+  padding: 15px;
+  border-right: 15px solid rgb(241, 174, 28);
+  border-bottom: 15px solid rgb(99, 7, 175);
+}
+
+
+.carrer_titulos {
+  margin-top: 200px;
+  margin-right: 400px;
+}
+
+.carrer_titulos h1 {
+  color: rgb(99, 7, 175);
+  margin-left: 250px;
+}
+
+.titulos_banner {
+  border-right: 15px solid rgb(241, 174, 28);
+  border-bottom: 15px solid rgb(99, 7, 175);
+  padding: 7px;
+  list-style: none;
+  font-size: 18px;
+  width: 490px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-image: url("../image/bannerbio6.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 1100px;
+}
+
+
+.footer_final {
+
+}
+
+.titulos ul {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 .biografia {
@@ -166,8 +240,6 @@ cite {
   display: flex;
   justify-content: center;
 }
-
-
 
 
 background-image: url("../image/bannerbio3.jpg");
